@@ -26,10 +26,22 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
+\definecolor{hotpink}{HTML}{FF69B4}
+\definecolor{cornflowerblue}{HTML}{6495ED}
+\colorlet{awesome}{cornflowerblue}
 
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
 % Colors for text
 % Uncomment if you would like to specify your own color
 % \definecolor{darktext}{HTML}{414141}
@@ -50,17 +62,14 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
-\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
-
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\name{Kevin}{Xie}
+\position{PhD Candidate{\enskip\cdotp\enskip}Physics{\enskip\cdotp\enskip}University of Toronto}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+%\address{75 Kruger Road, Markham, ON, Canada, L3S 3Y8}
+\mobile{(+1) 416-993-6322}
+\email{kevin.gs.xie@gmail.com}
+% \linkedin{https://www.linkedin.com/in/kevin-xie-5b0924190/}
+\googlescholar{https://scholar.google.ca/citations?user=wj95skwAAAAJ&hl=en}{Kevin G. S. Xie}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -76,8 +85,6 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
@@ -85,18 +92,19 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {Morgan Stanley Services Canada Corporation}
+  {Morgan Stanley\\700 Wellington St.\\Montreal, QC, Canada H3C 3S4}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Internship Application for Summer 2026 Quantitative Finance Program in Montreal}
+
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{\\To whom it may concern,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+\letterenclosure[Attached]{Résumé}
 
 
 %-------------------------------------------------------------------------------
@@ -104,13 +112,13 @@
 
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[R]
+% \makecvheader[R]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
+  {Kevin Xie~~~·~~~Cover Letter}
   {}
 
 % Print the title with above letter information
@@ -122,14 +130,22 @@
 \begin{cvletter}
 
 \lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+Thank you for considering my application. 
+I am currently a PhD candidate in experimental quantum optics at the University of Toronto under Prof. Joseph Thywissen. 
+My interest in financial markets developed early in my PhD during the post-COVID-19 period of heightened market volataility and intense focus on interest-rate policy. 
+Witnessing the economic dynamism of that period inspired me to pursue quantitative finance as a career path, especially in areas related to Fixed Income or macroeconomics.
+As I approach completion of my program, I am eager to apply my rigorous training in research, data analysis, and statistical modeling to an exciting and innovative field.
 
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+\lettersection{Why Morgan Stanley?}
+I am drawn to Morgan Stanley for its leadership in the industry and its reputation for excellence. 
+I first learned about the Summer Internship Program through a senior graduate student in my research group, whose highly positive experience ultimately led to a full-time role at the firm. 
+His endorsement played a significant role in my decision to apply, and it highlighted to me the strength of Morgan Stanley's culture and the quality of its training.
 
 \lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
-
+I believe my experience as an experimental physicist has prepared me well for quantitative finance. 
+My research requires a multidisciplinary skill set that emphasizes analytical thinking, adaptability, and rapid problem-solving.
+I look forward to the opportunity to contribute my skills at Morgan Stanley this summer and to learn from the firm's talented professionals.
 \end{cvletter}
 
 
